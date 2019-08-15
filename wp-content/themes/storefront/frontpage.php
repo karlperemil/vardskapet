@@ -62,9 +62,11 @@ $newsletter = get_field('newsletter');
 						if ( have_posts() ) :
 							while ( have_posts() ) : the_post();
 							$link = get_the_permalink();
+							/* links "läs mer" to events page
 							if($x == 2){
 								$link = "/events/";
 							}
+							*/
 							?>
 							<div class="slidething <?php echo $catClass[$x]; ?>" data-url="<?php echo $link ?>">
 								<h2><?php _e($catTitle[$x]); ?></h2>
