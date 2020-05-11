@@ -23,6 +23,7 @@ function createMenu($style){
                         <a class="menu-link" href="/blog"><?php _e("[:en]Blog[:sv]Blogg"); ?></a>
                         <a class="menu-link" href="/our-stories"><?php _e("[:en]Our stories[:sv]Våra berättelser"); ?></a>
                         <a class="menu-link" href="/movies"><?php _e("[:en]Movies[:sv]Film"); ?></a>
+                        <a class="menu-link" href="/samtal-om-vardskap"><?php _e("[:en]Conversations on Hostmanship[:sv]Samtal om värdskap"); ?></a>
                     </div>
 
                 </div>
